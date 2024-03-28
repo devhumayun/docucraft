@@ -9,11 +9,11 @@ const ContentDisplay = async ({ id }) => {
             <h1> {content.title} </h1>
             <div>
                 <span>Published On: {content.date}</span> by {" "}
-                <Link href={`/author/${content.author}`}>
+                <Link href={`/authors/${content.author}`}>
                     {content.author}
                 </Link> {" "}
                 under the{" "}
-                <Link href={`/categories/${content.category}`}>
+                <Link href={`/category/${content.category}`}>
                     {content.category}
                 </Link>{" "}
                 category.
